@@ -1,0 +1,203 @@
+.about-page {
+  background-color: #f8f9fa;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Historia Section */
+.historia {
+  background-color: white;
+}
+
+.historia-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.historia-text h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.historia-text p {
+  color: #7f8c8d;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.historia-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia-placeholder {
+  font-size: 8rem;
+  opacity: 0.6;
+}
+
+/* Valores Section */
+.valores {
+  background-color: #f8f9fa;
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.valor-card {
+  text-align: center;
+  padding: 2rem;
+}
+
+.valor-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.valor-card h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.valor-card p {
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+/* Equipo Section */
+.equipo {
+  background-color: white;
+}
+
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.equipo-card {
+  text-align: center;
+  padding: 2rem;
+}
+
+.equipo-avatar {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.equipo-card h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.equipo-cargo {
+  color: #e74c3c;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.equipo-card p {
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+/* Logros Section */
+.logros {
+  background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+  color: white;
+}
+
+.logros .section-title {
+  color: white;
+}
+
+.logros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.logro-item {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.logro-number {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.logro-text {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+  
+  .about-subtitle {
+    font-size: 1rem;
+  }
+  
+  .historia-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .historia-text h2 {
+    font-size: 2rem;
+  }
+  
+  .historia-placeholder {
+    font-size: 5rem;
+  }
+  
+  .valores-grid,
+  .equipo-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .logros-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .logro-number {
+    font-size: 2.5rem;
+  }
+} 

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/restaurante_shalom/static/css/main.3bb40b47.css",
+    "main.js": "/restaurante_shalom/static/js/main.c3fecfca.js",
+    "index.html": "/restaurante_shalom/index.html",
+    "main.3bb40b47.css.map": "/restaurante_shalom/static/css/main.3bb40b47.css.map",
+    "main.c3fecfca.js.map": "/restaurante_shalom/static/js/main.c3fecfca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bb40b47.css",
+    "static/js/main.c3fecfca.js"
+  ]
+}
